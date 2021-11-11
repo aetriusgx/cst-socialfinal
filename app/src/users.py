@@ -1,8 +1,8 @@
 mockup_users = [
-	{"username": "kovuuko",								# Without @
-	"description": "Trans enby computer nerd",			# User bio
-	"posts": {											# User posts
-		"654717983": ["Hmmmmmm", 0, 0],					# 9 digit Random post ID: [Post text, likes, shares]
+	{"username": "kovuuko",										# Without @
+	"description": "Trans enby computer nerd (They/Them)",		# User bio
+	"posts": {													# User posts
+		"654717983": ["Hmmmmmm", 0, 0],							# 9 digit Random post ID: [Post text, likes, shares]
 		"927130747": ["Nice", 0, 0],
 		"102930174": ["Sent from iPhone", 0, 0],
 		"324707170": ["静かに。。。", 0, 0],
