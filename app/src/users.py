@@ -1,11 +1,15 @@
-mockup_users = {
-	"username": "",				# Without @
-	"description": "",			# User bio
-	"posts": {					# User posts
-		"654717983": ["", 0, 0],	# Random post ID: [Post text, likes, shares]
-	}
-}
+mockup_users = [
+	{"username": "kovuuko",								# Without @
+	"description": "Trans enby computer nerd",			# User bio
+	"posts": {											# User posts
+		"654717983": ["Hmmmmmm", 0, 0],					# 9 digit Random post ID: [Post text, likes, shares]
+		"927130747": ["Nice", 0, 0],
+		"102930174": ["Sent from iPhone", 0, 0],
+		"324707170": ["静かに。。。", 0, 0],
+	}}
+]
 
+# print(mockup_users[0]["username"]) returns "kovuuko"
 '''
 	Username requests:
 		kovuuko
@@ -22,7 +26,7 @@ mockup_users = {
 			pythondonkey
 			pumpkinannoyed
 			andorrantapir
-			
+
 
 '''
 
