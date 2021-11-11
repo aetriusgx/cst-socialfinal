@@ -1,2 +1,5 @@
 /app/__pycache__
 /app/pyvenv.cfg
+/app/Include/
+/app/Lib/site-packages/
+/app/Scripts/
