@@ -1,4 +1,4 @@
 Flask: pip install Flask
 Bootstrap-Flask: pip install bootstrap-flask
-Pillow: python3 -m pip install --upgrade Pillow
+Pillow: python -m pip install --upgrade Pillow
 Flask-WTF: pip install Flask-WTF
