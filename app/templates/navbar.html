@@ -1,0 +1,12 @@
+{{ bootstrap.load_css() }}
+<nav class="navbar navbar-light" style="background-color: #0095ff;">
+    <div class="container-fluid">
+        <a class="navbar-brand" style="color: white;" href="{{ url_for('homePage') }}"><b>Social Name</b></a>
+        <form action="/view_profiles" method="POST" class="d-flex">  
+          <input class="form-control me-2" type="search" placeholder="@username" aria-label="Search" name="search-user">
+        </form>
+      </div>
+</nav>
+
+{% block content %}
+{% endblock %}
