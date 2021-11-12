@@ -76,13 +76,5 @@ mockup_users = [
 		"377299112": ["The true meaning of covfefe. An illusion!", 0, 0],
 		"077165462": ["Throw yourself at the ground and miss", 0, 0],
 		"948635422": ["Stop being reasonable, this is the internet!", 0, 0]
-	}}
-]
 
 # print(mockup_users[0]["username"]) returns "kovuuko"
-'''
-	Username requests:
-		leafrgb
-		efuentes
-				
-'''
