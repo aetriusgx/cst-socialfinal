@@ -6,19 +6,24 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Profile</title>
 </head>
-<body>
+<body style="background-color:whitesmoke;">
   {% extends 'home.html' %}
   {% block content %}
-
-    <div class="container">
+    <div class="container" style="margin-top: 80px;">
       {% for info in user_data %}
         {% if user.lower() == info['username'] %}
-          <h1>User: @{{ user.lower() }}</h1>
-          <h1>Bio: {{ info['description'] }}</h1>
+          {% for posts in info['posts'] %}
+            <div class="shadow p-3 mb-5 bg-body rounded" style="background-color: white;">
+              <h3>@{{ user.lower() }}</h3>
+              <h4>Post:</h4>
+              <p>{{ info['posts'][posts][0] }}</p>
+              <small>Likes: {{ info['posts'][posts][1] }}  |  Shares: {{ info['posts'][posts][2] }}</small>
+            </div>
+          {% endfor %}
         {% endif %}
       {% endfor %}  
     </div>
-
+    
   {% endblock %}
 </body>
 </html>
