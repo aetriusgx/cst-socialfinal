@@ -26,3 +26,13 @@ def homePage():
 def view_profiles():
 	user = request.form.get('search-user')
 	return render_template('profile.html', user=user, user_data=user_data)
+
+
+@app.route('/user/<username>')
+def view_user(username):
+	userInfo = {}
+	for user in user_data:
+		if user['username'] == username:
+			user_info = user
+	
+	return render_template('user_profile.html', user_info=user_info)
