@@ -100,14 +100,14 @@ mockup_users = [
 	{"username": "itsyoboyray",								# Without @
 	"description": "Being Human is hard",		               			# User bio
 	"posts": {										 		  	# User posts
-		"574225443": ["There is like a 90%\\ chance I'm listening to Chelsea Cutler rn", 0, 0],  			# 9 digit Random post ID: [Post text, likes, shares]
+		"574225443": ["There is like a 90 percent chance I'm listening to Chelsea Cutler rn", 0, 0],  			# 9 digit Random post ID: [Post text, likes, shares]
 		"897480319": ["I'm not getting off Valorant until I win a game, this could take a while", 0, 0],
 		"084289543": ["Wait RLCS just started huh", 0, 0],
 		"843834343": ["S2000's are so cool", 0, 0],
 		"088989248": ["iS tHaT a sUpRa?!?!1?!/!", 0, 0],
 		"464644841": ["I have never seen a greated dub than this one bossman", 0, 0]
 	}},
-	{"username": "Siixes",								# Without @
+	{"username": "siixes",								# Without @
 	"description": "Hi :)",		               			# User bio
 	"posts": {										 		  	# User posts
 		"481654165": ["Its surprising how hard it is to get people together for a picture", 0, 0],  			# 9 digit Random post ID: [Post text, likes, shares]
@@ -117,17 +117,17 @@ mockup_users = [
 		"656424343": ["Got a haircut today", 0, 0],
 		"894323272": ["My door seal is leaking :(", 0, 0]
 	}},
-	{"username": "Zoomer871",								# Without @
+	{"username": "zoomer871",								# Without @
 	"description": "I am increadibily boring, hi",		               			# User bio
 	"posts": {										 		  	# User posts
-		"764274980": ["Oh no Zee released another truck sound", 0, 0],  			# 9 digit Random post ID: [Post text, likes, shares]
+		"764274980": ["Oh no Zee released another ATS truck sound mod, goodbye to my wallet", 0, 0],  			# 9 digit Random post ID: [Post text, likes, shares]
 		"974279438": ["Where did my earbuds go", 0, 0],
 		"313142453": ["My USB cable is broken", 0, 0],
 		"432425388": ["Type C is best cable", 0, 0],
 		"888035908": ["My internet is less than 1mbps I love it here", 0, 0],
 		"215354119": ["I saw a cool car on my way back from Melbourne", 0, 0]
 	}},
-	{"username": "Rizentral",								# Without @
+	{"username": "rizentral",								# Without @
 	"description": "I build terrible cars and make LED car badges",		               			# User bio
 	"posts": {										 		  	# User posts
 		"794793283": ["IM THE DOUCHIEST CHRISTMAS TREE, HO HO HO, YEET YEET YEET. SOMEONE TOOK MY TAPE FROM ME AND TOOK IT HOME WITH THEM", 0, 0],  			# 9 digit Random post ID: [Post text, likes, shares]
@@ -137,7 +137,7 @@ mockup_users = [
 		"809213892": ["Pwaf", 0, 0],
 		"080813332": ["My starter got so hot it shorted to the frame lol", 0, 0]
 	}},
-	{"username": "Sliceable",								# Without @
+	{"username": "sliceable",								# Without @
 	"description": "Subaru Mechanic",		               			# User bio
 	"posts": {										 		  	# User posts
 		"984342434": ["Help I've binned it in the nasho", 0, 0],  			# 9 digit Random post ID: [Post text, likes, shares]
@@ -146,6 +146,21 @@ mockup_users = [
 		"485285573": ["My cat is sitting on my Xbox, if I overheat I'm sorry", 0, 0],
 		"898942893": ["I now have a longboi 10mm socket", 0, 0],
 		"321564845": ["Mmmmm, Japanese cars", 0, 0]
+	}},
+	{"username": "godcomplexmaybe",								# Without @
+	"description": "here for theb ride. unwillingly. being dragged by a rope",		               			# User bio
+	"posts": {										 		  	# User posts
+		"244767633": ["Time to send your ottercard photo??? WHEN DID THEY SEND THIS? APRIL?????", 0, 0],  			# 9 digit Random post ID: [Post text, likes, shares]
+		"489654954": ["I asked the teacher if my mic sounded fine and she said yeah. Then all my friends told me I sounded like a robot :(", 0, 0],
+		"585893589": ["Wait Prime day is only for Prime Users?", 0, 0],
+		"062143435": ["Give me a second, not at computer rn SEND MESSAGE SIRI", 0, 0],
+		"984284298": ["Eating a bone-in chicken wing is like eating an apple", 0, 0],
+		"494289488": ["mimis time", 0, 0],
+		"877766776": ["This post has been removed for going aganst community guidelines. Reason: Bad Word Usage", 0, 0],
+		"907453907": ["AMAAAAA, ME ESTAN HACIENDO EL BULLYING", 0, 0],
+		"949789389": ["15 page essay? I'll do it 2 hours before its due", 0, 0],
+		"949724189": ["We trying to learn math here? Damb I'm too dumb for that", 0, 0],
+		"971343541": ["RIP Rythm Bot, gone too soon", 0, 0]
 	}}
 ]
 
