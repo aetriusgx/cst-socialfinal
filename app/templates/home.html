@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="./static/css/home.css" rel="stylesheet" type="text/css">
+    <link href="/static/css/home.css" rel="stylesheet" type="text/css">
     <title>Home</title>
 </head>
 <body>
@@ -12,13 +12,21 @@
     {% block content %}
         <div class="page-content">
             <div class="left-side-content">
-                Left
             </div>
             <div class="center-timeline">
-                center
+                {% for post in timeline %}
+                    <div class="user-post">
+                        <p class="post-username">@{{ post[0] }}</p>
+                        <p class="post-content">{{ post[1][0] }}</p>
+                        <div class="post-interaction"> 
+                            <a><img class="post-icons" src="/static/images/icons/love.png"></a>
+                            <!-- for filled heart: /static/images/icons/heart.png -->
+                            <p class="post-int-text">{{ post[1][1] }}</p>
+                        </div>
+                    </div>
+                {% endfor %}
             </div>
             <div class="right-side-content">
-                right
             </div>
         </div>
     {% endblock %}

@@ -1,0 +1,54 @@
+.page-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.left-side-content {
+	flex: 1;
+}
+
+.center-timeline {
+	margin-top: 15px;
+	flex: 2;
+}
+
+.right-side-content {
+	flex: 1;
+}
+
+.user-post {
+	border: 1px hidden black;
+	border-radius: 4px;
+	box-shadow: 2px 1px 10px 1px grey;
+	padding: 10px;
+	padding-bottom: 4px;
+	margin-bottom: 15px;
+}
+
+.user-post .post-username {
+	font-weight: bold;
+	font-size: small;
+	
+}
+
+.user-post .post-content {
+	margin-top: -10px;
+	margin-bottom: 0;
+	line-height: 18px;
+}
+
+.user-post .post-interaction {
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+}
+
+.user-post .post-interaction .post-icons {
+	height: 14px;
+	width: auto;
+}
+
+.user-post .post-interaction .post-int-text {
+	margin-left: 4px;
+}
