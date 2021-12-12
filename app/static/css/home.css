@@ -15,3 +15,15 @@
 .right-side-content {
 	flex: 1;
 }
+
+.user-post {
+	box-shadow: black 2px;
+}
+
+.user-post .post-username {
+
+}
+
+.user-post .post-content {
+	
+}
