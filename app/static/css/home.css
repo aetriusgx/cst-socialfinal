@@ -17,13 +17,16 @@
 }
 
 .user-post {
-	box-shadow: black 2px;
+	border: 1px hidden;
+	box-shadow: 5px black;
+	padding-top: 10px;
 }
 
 .user-post .post-username {
-
+	font-size: small;
 }
 
 .user-post .post-content {
-	
+	margin-top: -20px;
+	margin-bottom: -5px;
 }

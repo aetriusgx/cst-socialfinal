@@ -12,18 +12,16 @@
     {% block content %}
         <div class="page-content">
             <div class="left-side-content">
-                Left
             </div>
             <div class="center-timeline">
                 {% for post in timeline %}
-                    <div>
-                        <p>{{ post[0] }}</p>
-                        <p>{{ post[1][0] }}</p>
+                    <div class="user-post">
+                        <p class="post-username">@{{ post[0] }}</p>
+                        <p class="post-content">{{ post[1][0] }}</p>
                     </div>
                 {% endfor %}
             </div>
             <div class="right-side-content">
-                right
             </div>
         </div>
     {% endblock %}
