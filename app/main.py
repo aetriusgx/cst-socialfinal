@@ -20,7 +20,7 @@ def homePage():
 			timeline.append([user_data[user]["username"], user_data[user]["posts"][post]])
 	shuffle(timeline)
 	return render_template('home.html')
-homePage()
+
 
 @app.route('/view_profiles', methods=['POST'])
 def view_profiles():
