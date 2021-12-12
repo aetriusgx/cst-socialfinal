@@ -1,4 +1,5 @@
 mockup_users = [
+# user_data = [
 	{"username": "kovuuko",										# Without @
 	"description": "Trans enby computer nerd (They/Them)",		# User bio
 	"posts": {													# User posts
