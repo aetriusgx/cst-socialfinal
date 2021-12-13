@@ -18,7 +18,7 @@ mockup_users = [
 	{"username": "layercord",								    # Without @
 	"description": " I love food",		        				# User bio
 	"posts": {													# User posts
-		"400293453": ["Thank you for fish!", 0, 0, ""],			    # 9 digit Random post ID: [Post text, likes, shares, ""]
+		"400293453": ["Thank you for fish!", 0, 0, "fish.jpg"],			    # 9 digit Random post ID: [Post text, likes, shares, ""]
 		"109435752": ["Don't feed chocolate to parrots", 0, 0, ""]
 	}},
 	{"username": "petlover",									# Without @
