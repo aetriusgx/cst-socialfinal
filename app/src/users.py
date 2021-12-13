@@ -87,7 +87,7 @@ mockup_users = [
 		"949724322": ["Is that blue or purple, I really can't tell. Or is it blurple?", 0, 0],
 		"244644688": ["My eyes don't work", 0, 0]
 	}},
-	{"username": "Leaf",								# Without @
+	{"username": "leaf",								# Without @
 	"description": "Nerd with too many hobbies, any pronouns!",		               			# User bio
 	"posts": {										 		  	# User posts
 		"062169420": ["There is an obscene amount of furries who are sys admins", 0, 0],  			# 9 digit Random post ID: [Post text, likes, shares]
@@ -96,7 +96,7 @@ mockup_users = [
 		"062190707": ["Hard drives go brrrrrrrrrrrrr...", 0, 0],
 		"062189879": ["Day 3621 of Windows being pain", 0, 0],
 		"062166858": ["It is cold, that means I must go for records on 3DMark", 0, 0],
-		"062187684": ["Want to hear my new song?"]
+		"062187684": ["Want to hear my new song?", 0, 0]
 	}},
 	{"username": "itsyoboyray",								# Without @
 	"description": "Being Human is hard",		               			# User bio
@@ -161,7 +161,19 @@ mockup_users = [
 		"907453907": ["AMAAAAA, ME ESTAN HACIENDO EL BULLYING", 0, 0],
 		"949789389": ["15 page essay? I'll do it 2 hours before its due", 0, 0],
 		"949724189": ["We trying to learn math here? Damb I'm too dumb for that", 0, 0],
-		"971343541": ["RIP Rythm Bot, gone too soon", 0, 0]
+		"971343541": ["RIP Rythm Bot, gone too soon", 0, 0],
+	}},
+	{"username": "shitpostbot9k",								# Without @
+	"description": "I'm a bot that posts random shitposts. Warning: Memes ahead",		               			# User bio
+	"posts": {										 		  	# User posts
+		"988994314": ["I hate amogus copypastas. Why are they so popular? They\'re all effortless and look all the same. They are a pain for me to look at, I don\'t even know why they exist in the first place. Look, I\'m not trying to judge, but they\'re so fucking awful. Everytime I see the word \"amogus\" in a copypasta I just feel like I have to throw my phone into the immense void and wait for amogus to consume itself. Stop talking about the ship sussy baka imposter x the innocent kawaii crewmate in one of your useless amogus copypastas, it\'s not going to make them better. I hope that everyone that makes amogus copypastas stops already, cause they aren\'t funny at all. Everyone\'s like \"omg omg it's amogus\" and I'm here like \"omg omg it's the end to my life\",why does this have to be a thing? Why does amogus have to exist in the world of copypastas? Is that what the world is going to go through? Everytime someone wearing red kills someone else is everyone there going to say \"red's looking sussy!!1!!!1!1!1!1!!\"? Does this mean that everytime there\'s an emergency everyone is going to go \"OMG OMG EMERGENCY MEETING I VOTE RED HE\'S SUS HAHAHAHAHA DINGIDINGDINGDING\"?!? Amogus copypastas are influencing the human brain too much and I\'m here just waiting for them to stop. Thanks for reading -sincerely, an amogus copypasta hater", 0, 0], # 9 digit Random post ID: [Post text, likes, shares]
+		#add more memes
+		"878238933": ["Y'all got any BONELESS pizza?", 0, 0],
+		"989811101": ["Not gonna be active on Discord tonight. I\'m taking a shower (a real one) in half an hour (wouldn\'t expect a lot of you to understand anyway) so pleas don\'t DM me asking me where I am (im taking a shower, ok) you'll most likely get aired because ill be in the shower (again I don\'t expect you to understand) I\'m actually really smelly and its not a situation I can pass up for some meaningless Discord degenerates (because ill be taking a shower, not that you really are going to understand) this is my life now. Taking showers and not wasting my precious time online, I have to move on from such simple things and branch out (you wouldn't undertsand).", 0, 0],
+		"019347811": ["Today when I walked into my economics class I saw something I dread every time I close my eyes. Someone had brought their new gaming laptop to class. The Forklift he used to bring it was still running idle at the back. I started sweating as I sat down and gazed over at the 700lb beast that was his laptop. He had already reinforced his desk with steel support beams and was in the process of finding an outlet for a power cable thicker than my thigh. I start shaking. I keep telling myself I\'m going to be alright and that there\'s nothing to worry about. He somehow finds a fucking outlet. Tears are running down my cheeks as I send my last texts to my family saying I love them. The teacher starts the lecture, and the student turns his laptop on. The colored lights on his RGB Backlit keyboard flare to life like a nuclear flash, and a deep humming fills my ears and shakes my very soul. The entire city power grid goes dark. The classroom begins to shake as the massive fans begin to spin. In mere seconds my world has gone from vibrant life, to a dark, earth shattering void where my body is getting torn apart by the 150mph gale force winds and the 500 decibel groan of the cooling fans. As my body finally surrenders, I weep, as my school and my city go under.", 0, 0],
+		"255984515": ["The FitnessGram™ Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues. The 20 meter pacer test will begin in 30 seconds. Line up at the start. The running speed starts slowly, but gets faster each minute after you hear this signal. [beep] A single lap should be completed each time you hear this sound. [ding] Remember to run in a straight line, and run as long as possible. The second time you fail to complete a lap before the sound, your test is over. The test will begin on the word start. On your mark, get ready, start.", 0, 0],
+		#"062166858": ["What the fuck did you just fucking say about me, you little bitch? I\'ll have you know I graduated top of my class in the Navy Seals, and I\'ve been involved in numerous secret raids on Al-Quaeda, and I have over 300 confirmed kills. I am trained in gorilla warfare and I\'m the top sniper in the entire US armed forces. You are nothing to me but just another target. I will wipe you the fuck out with precision the likes of which has never been seen before on this Earth, mark my fucking words. You think you can get away with saying that shit to me over the Internet? Think again, fucker. As we speak I am contacting my secret network of spies across the USA and your IP is being traced right now so you better prepare for the storm, maggot. The storm that wipes out the pathetic little thing you call your life. You\'re fucking dead, kid. I can be anywhere, anytime, and I can kill you in over seven hundred ways, and that\'s just with my bare hands. Not only am I extensively trained in unarmed combat, but I have access to the entire arsenal of the United States Marine Corps and I will use it to its full extent to wipe your miserable ass off the face of the continent, you little shit. If only you could have known what unholy retribution your little \"clever\" comment was about to bring down upon you, maybe you would have held your fucking tongue. But you couldn\'t, you didn\'t, and now you\'re paying the price, you goddamn idiot. I will shit fury all over you and you will drown in it. You're fucking dead, kiddo.", 0, 0],
+		"062187684": ["Want to hear my new song?"]
 	}}
 ]
 
