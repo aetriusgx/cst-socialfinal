@@ -7,6 +7,8 @@ from PIL import Image
 from src import users
 from random import shuffle
 
+my_username = "developmentuser"
+
 app = Flask(__name__)
 bootstrap = Bootstrap(app)
 user_data = users.mockup_users
@@ -19,7 +21,7 @@ shuffle(timeline)
 
 @app.route('/')
 def homePage():
-	return render_template('home.html', timeline=timeline)
+	return render_template('home.html', timeline=timeline, user=user_data[0])
 
 
 @app.route('/view_profiles', methods=['POST'])
