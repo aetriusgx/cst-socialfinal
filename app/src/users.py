@@ -13,7 +13,7 @@ mockup_users = [
 	"posts": {													# User posts
 		"436642356": ["First Day of School!", 0, 0, ""],		    # 9 digit Random post ID: [Post text, likes, shares, ""]
 		"994320445": ["Sleepy...", 0, 0, ""],
-		"235235994": ["On Vacation", 0, 0, ""],
+		"235235994": ["On Vacation", 0, 0, "vacation.jpg"],
 	}},
 	{"username": "layercord",								    # Without @
 	"description": " I love food",		        				# User bio
@@ -25,14 +25,14 @@ mockup_users = [
 	"description": "Proud Veterinarian",		        		# User bio
 	"posts": {													# User posts
 		"003462344": ["Yay, puppies for everyone!", 0, 0, ""],		# 9 digit Random post ID: [Post text, likes, shares, ""]
-		"632045936": ["My New Pet!", 0, 0, ""],
+		"632045936": ["My New Pet!", 0, 0, "cooper.jpg"],
 		"995832245": ["Walking my pet", 0, 0, ""],
 	}},
 	{"username": "bakercrepe",									# Without @
 	"description": "Cooking is my favorite hobby",		        # User bio
 	"posts": {													# User posts
 		"632399922": ["Truly gone fishing!", 0, 0, ""],				# 9 digit Random post ID: [Post text, likes, shares, ""]
-		"208523535": ["Something's not quite right...", 0, 0, ""],
+		"208523535": ["Something's not quite right...", 0, 0, "cake-fail.jpg"],
 		"146574834": ["Baking a cake", 0, 0, ""],
 	}},
 	{"username": "perhapsthree",								# Without @
@@ -115,7 +115,7 @@ mockup_users = [
 		"989788323": ["My cats are absolutely adorable", 0, 0, ""],
 		"874270428": ["The strut for the hatch on my car needs replacing :(", 0, 0, ""],
 		"097437924": ["Enjoying lunch outside in this wonderful weather", 0, 0, ""],
-		"656424343": ["Got a haircut today", 0, 0, ""],
+		"656424343": ["Got a haircut today", 0, 0, "badcut.jpg"],
 		"894323272": ["My door seal is leaking :(", 0, 0, ""]
 	}},
 	{"username": "zoomer871",								# Without @
@@ -123,7 +123,7 @@ mockup_users = [
 	"posts": {										 		  	# User posts
 		"764274980": ["Oh no Zee released another ATS truck sound mod, goodbye to my wallet", 0, 0, ""],  			# 9 digit Random post ID: [Post text, likes, shares, ""]
 		"974279438": ["Where did my earbuds go", 0, 0, ""],
-		"313142453": ["My USB cable is broken", 0, 0, ""],
+		"313142453": ["My USB cable is broken", 0, 0, "rip_usb.png"],
 		"432425388": ["Type C is best cable", 0, 0, ""],
 		"888035908": ["My internet is less than 1mbps I love it here", 0, 0, ""],
 		"215354119": ["I saw a cool car on my way back from Melbourne", 0, 0, ""]
@@ -151,7 +151,7 @@ mockup_users = [
 	{"username": "godcomplexmaybe",								# Without @
 	"description": "here for theb ride. unwillingly. being dragged by a rope",		               			# User bio
 	"posts": {										 		  	# User posts
-		"244767633": ["Time to send your ottercard photo??? WHEN DID THEY SEND THIS? APRIL?????", 0, 0, ""],  			# 9 digit Random post ID: [Post text, likes, shares, ""]
+		"244767633": ["Time to send your ottercard photo??? WHEN DID THEY SEND THIS? APRIL?????", 0, 0, "catish.jpg"],  			# 9 digit Random post ID: [Post text, likes, shares, ""]
 		"489654954": ["I asked the teacher if my mic sounded fine and she said yeah. Then all my friends told me I sounded like a robot :(", 0, 0, ""],
 		"585893589": ["Wait Prime day is only for Prime Users?", 0, 0, ""],
 		"062143435": ["Give me a second, not at computer rn SEND MESSAGE SIRI", 0, 0, ""],

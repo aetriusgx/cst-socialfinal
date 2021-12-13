@@ -18,12 +18,16 @@
                 {% for post in timeline %}
                     <div class="user-post">
                         <a href="{{ url_for('view_user', username=post[0]) }}"><p class="post-username">@{{ post[0] }}</p></a>
-                        <p class="post-content">{{ post[1][0] }}</p>
+                        {% if post[1][0] != "" %}
+                            <p class="post-content">{{ post[1][0] }}</p>
+                        {% endif %}
+
                         {% if post[1][3] != "" %}
                             <div class="post-image">
                                 <img src="static/images/post/{{ post[0] }}/{{ post[1][3] }}">
                             </div>
                         {% endif %}
+                        
                         <div class="post-interaction"> 
                             <a><img class="post-icons" src="/static/images/icons/love.png"></a>
                             <!-- for filled heart: /static/images/icons/heart.png -->
