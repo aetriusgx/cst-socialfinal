@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="/static/css/home.css" rel="stylesheet" type="text/css">
-    <title>Home</title>
+    <link rel="icon" href="/static/images/icons/favicon.png">
+    <title>Canary - Home</title>
 </head>
 <body>
     {% extends 'navbar.html' %}
@@ -18,6 +19,11 @@
                     <div class="user-post">
                         <a href="{{ url_for('view_user', username=post[0]) }}"><p class="post-username">@{{ post[0] }}</p></a>
                         <p class="post-content">{{ post[1][0] }}</p>
+                        {% if post[1][3] != "" %}
+                            <div class="post-image">
+                                <img src="static/images/post/{{ post[0] }}/{{ post[1][3] }}">
+                            </div>
+                        {% endif %}
                         <div class="post-interaction"> 
                             <a><img class="post-icons" src="/static/images/icons/love.png"></a>
                             <!-- for filled heart: /static/images/icons/heart.png -->
