@@ -13,12 +13,29 @@
     {% block content %}
         <div class="page-content">
             <div class="left-side-content">
-                
+                <div class="user-preview">
+                    <div class="upper-preview">
+                        <img src="/static/images/unknown_img.png">
+                        <a href="{{ url_for('view_user', username=user['username'])}}"><p>
+                            @{{ user["username"] }}
+                        </p></a>
+                    </div>
+                    <div class="post-entry">
+                        <p>Create new post</p>
+                        <input class="post-input form-control me-2" type="text" placeholder="Enter text" aria-label="Post Entry" name="post-entry">
+                    </div>
+                </div>
             </div>
             <div class="center-timeline">
                 {% for post in timeline %}
                     <div class="user-post">
-                        <a href="{{ url_for('view_user', username=post[0]) }}"><p class="post-username">@{{ post[0] }}</p></a>
+
+                        <a href="{{ url_for('view_user', username=post[0]) }}">
+                            <p class="post-username">
+                                @{{ post[0] }}
+                            </p>
+                        </a>
+                        
                         {% if post[1][0] != "" %}
                             <p class="post-content">{{ post[1][0] }}</p>
                         {% endif %}
