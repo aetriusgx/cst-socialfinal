@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="/static/css/home.css" rel="stylesheet" type="text/css">
     <link rel="icon" href="/static/images/icons/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Canary - Home</title>
 </head>
 <body>
@@ -24,8 +25,12 @@
                                 <img src="static/images/post/{{ post[0] }}/{{ post[1][3] }}">
                             </div>
                         {% endif %}
-                        <div class="post-interaction"> 
-                            <a><img class="post-icons" src="/static/images/icons/love.png"></a>
+                        <div class="post-interaction">
+                            <!--<a><img class="post-icons" src="/static/images/icons/love.png"></a>-->
+                            <!--button class to create the button-->
+                            <button class="button">
+                                <i class="fa fa-heart"></i>
+                            </button>
                             <!-- for filled heart: /static/images/icons/heart.png -->
                             <p class="post-int-text">{{ post[1][1] }}</p>
                         </div>

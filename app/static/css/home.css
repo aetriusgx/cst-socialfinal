@@ -60,3 +60,24 @@
 .user-post .post-interaction .post-int-text {
 	margin-left: 4px;
 }
+
+/*this is the color for the button*/
+.user-post .button{
+	background-color: white;
+	border: none;
+	color: lightgrey;
+	padding: 8px 8px;
+	font-size: 16px;
+	cursor: pointer;
+  }
+  
+  /*when you hover over the button change it a grey color*/
+  .user-post .button:hover{
+	color: grey;
+  }
+  /*when button pushed, change color*/
+  .user-post .button:active{
+	color: red;
+  }
+/*make the button oaval shape*/
+  .user-post .button{border-radius: 50%;}
