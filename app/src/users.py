@@ -91,7 +91,8 @@ mockup_users = [
 		"165916545": ["I reject your reality and substitute my own", 0, 0, ""],
 		"077132362": ["He was a skater boy, wait do people even skate still?", 0, 0, ""],
 		"949724322": ["Is that blue or purple, I really can't tell. Or is it blurple?", 0, 0, ""],
-		"244644688": ["My eyes don't work", 0, 0, ""]
+		"244644688": ["My eyes don't work", 0, 0, ""],
+		"384818818": ["My quality is too low of a screen", 0, 0, ""]
 	}},
 	{"username": "leaf",								# Without @
 	"description": "Nerd with too many hobbies, any pronouns!",		               			# User bio
@@ -102,7 +103,10 @@ mockup_users = [
 		"062190707": ["Hard drives go brrrrrrrrrrrrr...", 0, 0, ""],
 		"062189879": ["Day 3621 of Windows being pain", 0, 0, ""],
 		"062166858": ["It is cold, that means I must go for records on 3DMark", 0, 0, ""],
-		"062187684": ["Want to hear my new song?", 0, 0, ""]
+		"062187684": ["I just opened a can of Monster so crisply that every Kyle in a 100 mile radius was just alerted", 0, 0],
+		"062184882": ["Anime makes everything better", 0, 0, ""],
+		"062199929": ["Please werewolf responsibly", 0, 0, ""],
+		"062188583": ["Light a book on fire", 0, 0, ""]
 	}},
 	{"username": "itsyoboyray",								# Without @
 	"description": "Being Human is hard",		               			# User bio
@@ -112,7 +116,8 @@ mockup_users = [
 		"084289543": ["Wait RLCS just started huh", 0, 0, ""],
 		"843834343": ["S2000's are so cool", 0, 0, ""],
 		"088989248": ["iS tHaT a sUpRa?!?!1?!/!", 0, 0, ""],
-		"464644841": ["I have never seen a greated dub than this one bossman", 0, 0, ""]
+		"464644841": ["I have never seen a greated dub than this one bossman", 0, 0, ""],
+		"888184818": ["I'm gonna make a molotov cocktail out of a Knuckles plushie", 0, 0, ""],
 	}},
 	{"username": "siixes",								# Without @
 	"description": "Hi :)",		               			# User bio
@@ -132,8 +137,15 @@ mockup_users = [
 		"313142453": ["My USB cable is broken", 0, 0, "rip_usb.png"],
 		"432425388": ["Type C is best cable", 0, 0, ""],
 		"888035908": ["My internet is less than 1mbps I love it here", 0, 0, ""],
-		"215354119": ["I saw a cool car on my way back from Melbourne", 0, 0, ""]
+		"215354119": ["I saw a cool car on my way back from Melbourne", 0, 0, ""],
+		"238938411": ["Someone called me a pilgrim today", 0, 0, ""],
+		"838381108": ["I saw a car on the side of the road today and Phil Swift must have been driving because that was a lot of damage", 0, 0, ""],
+		"732979591": ["Julius Caesar was 174% knife by volume by the end of his career", 0, 0, ""],
+		"999979711": ["Roombas will save us all, until they get stuck on twigs or become sentient", 0, 0, ""],
+		"084919911": ["I\'m hungry... also depressed, but mostly hungry", 0, 0, ""],
+		"938480111": ["Space Crisps", 0, 0, ""]
 	}},
+	# Need to updated users past this one
 	{"username": "rizentral",								# Without @
 	"description": "I build terrible cars and make LED car badges",		               			# User bio
 	"posts": {										 		  	# User posts
