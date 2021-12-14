@@ -6,4 +6,23 @@
     margin-left: 20%;
 }
 
+.post-image {
+    float: left;
+    margin-right: 5%;
+}
+
+.description {
+    margin-bottom: 15%;
+}
+
+.post-interaction .post-icons {
+	height: 14px;
+	width: auto;
+}
+
+.shadow {
+    margin-top: 5%;
+}
+
+
 

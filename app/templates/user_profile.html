@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="/static/css/user.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="/static/images/icons/favicon.png">
     <title>@{{ user_info['username'] }}</title>
 </head>
 <body style="background-color:whitesmoke;">
@@ -15,6 +16,19 @@
                     <img class="post-image" src="/static/images/unknown_img.png" width="220px" style="border-radius: 50%;">
                     <h1 class="username">{{ user_info['username'] }}</h>
                     <h6 class="description">{{ user_info['description'] }}</h6>
+                    <hr class="seperator">
+                    {% for post in user_info['posts'] %}
+                        <div class="shadow p-3 mb-5 bg-body rounded" style="background-color: white;">
+                            <p>@{{ user_info['username'] }}<p>
+                            <p>{{ user_info['posts'][post][0] }}</p>
+                            <div class="post-interaction"> 
+                                <a><img class="post-icons" src="/static/images/icons/love.png"></a>
+                                <!-- for filled heart: /static/images/icons/heart.png -->
+                                
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
                     <br>
                 </div>
                 <hr class="seperator">
