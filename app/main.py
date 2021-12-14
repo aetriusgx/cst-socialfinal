@@ -19,7 +19,7 @@ for user in range(0, len(user_data)):
 		timeline.append([user_data[user]["username"], user_data[user]["posts"][post]])
 shuffle(timeline)
 
-@app.route('/')
+@app.route('/',methods=['GET', 'POST'])
 def homePage():
 	return render_template('home.html', timeline=timeline, user=user_data[0])
 
