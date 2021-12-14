@@ -1,5 +1,11 @@
 mockup_users = [
 # user_data = [
+	{
+	"username": "developmentuser",
+		"description": "Debug and testing user for Canary",
+		"posts": {
+
+	}}, 
 	{"username": "kovuuko",										# Without @
 	"description": "Trans enby computer nerd (They/Them)",		# User bio
 	"posts": {													# User posts
@@ -13,7 +19,7 @@ mockup_users = [
 	"posts": {													# User posts
 		"436642356": ["First Day of School!", 0, 0, ""],		    # 9 digit Random post ID: [Post text, likes, shares, ""]
 		"994320445": ["Sleepy...", 0, 0, ""],
-		"235235994": ["On Vacation", 0, 0, ""],
+		"235235994": ["On Vacation", 0, 0, "vacation.jpg"],
 	}},
 	{"username": "layercord",								    # Without @
 	"description": " I love food",		        				# User bio
@@ -25,14 +31,14 @@ mockup_users = [
 	"description": "Proud Veterinarian",		        		# User bio
 	"posts": {													# User posts
 		"003462344": ["Yay, puppies for everyone!", 0, 0, ""],		# 9 digit Random post ID: [Post text, likes, shares, ""]
-		"632045936": ["My New Pet!", 0, 0, ""],
+		"632045936": ["My New Pet!", 0, 0, "cooper.jpg"],
 		"995832245": ["Walking my pet", 0, 0, ""],
 	}},
 	{"username": "bakercrepe",									# Without @
 	"description": "Cooking is my favorite hobby",		        # User bio
 	"posts": {													# User posts
 		"632399922": ["Truly gone fishing!", 0, 0, ""],				# 9 digit Random post ID: [Post text, likes, shares, ""]
-		"208523535": ["Something's not quite right...", 0, 0, ""],
+		"208523535": ["Something's not quite right...", 0, 0, "cake-fail.jpg"],
 		"146574834": ["Baking a cake", 0, 0, ""],
 	}},
 	{"username": "perhapsthree",								# Without @
@@ -115,7 +121,7 @@ mockup_users = [
 		"989788323": ["My cats are absolutely adorable", 0, 0, ""],
 		"874270428": ["The strut for the hatch on my car needs replacing :(", 0, 0, ""],
 		"097437924": ["Enjoying lunch outside in this wonderful weather", 0, 0, ""],
-		"656424343": ["Got a haircut today", 0, 0, ""],
+		"656424343": ["Got a haircut today", 0, 0, "badcut.jpg"],
 		"894323272": ["My door seal is leaking :(", 0, 0, ""]
 	}},
 	{"username": "zoomer871",								# Without @
@@ -123,7 +129,7 @@ mockup_users = [
 	"posts": {										 		  	# User posts
 		"764274980": ["Oh no Zee released another ATS truck sound mod, goodbye to my wallet", 0, 0, ""],  			# 9 digit Random post ID: [Post text, likes, shares, ""]
 		"974279438": ["Where did my earbuds go", 0, 0, ""],
-		"313142453": ["My USB cable is broken", 0, 0, ""],
+		"313142453": ["My USB cable is broken", 0, 0, "rip_usb.png"],
 		"432425388": ["Type C is best cable", 0, 0, ""],
 		"888035908": ["My internet is less than 1mbps I love it here", 0, 0, ""],
 		"215354119": ["I saw a cool car on my way back from Melbourne", 0, 0, ""]
@@ -151,7 +157,7 @@ mockup_users = [
 	{"username": "godcomplexmaybe",								# Without @
 	"description": "here for theb ride. unwillingly. being dragged by a rope",		               			# User bio
 	"posts": {										 		  	# User posts
-		"244767633": ["Time to send your ottercard photo??? WHEN DID THEY SEND THIS? APRIL?????", 0, 0, ""],  			# 9 digit Random post ID: [Post text, likes, shares, ""]
+		"244767633": ["Time to send your ottercard photo??? WHEN DID THEY SEND THIS? APRIL?????", 0, 0, "catish.jpg"],  			# 9 digit Random post ID: [Post text, likes, shares, ""]
 		"489654954": ["I asked the teacher if my mic sounded fine and she said yeah. Then all my friends told me I sounded like a robot :(", 0, 0, ""],
 		"585893589": ["Wait Prime day is only for Prime Users?", 0, 0, ""],
 		"062143435": ["Give me a second, not at computer rn SEND MESSAGE SIRI", 0, 0, ""],
@@ -174,7 +180,7 @@ mockup_users = [
 		"255984515": ["The FitnessGram™ Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues. The 20 meter pacer test will begin in 30 seconds. Line up at the start. The running speed starts slowly, but gets faster each minute after you hear this signal. [beep, ""] A single lap should be completed each time you hear this sound. [ding, ""] Remember to run in a straight line, and run as long as possible. The second time you fail to complete a lap before the sound, your test is over. The test will begin on the word start. On your mark, get ready, start.", 0, 0, ""],
 		#"062166858": ["What the fuck did you just fucking say about me, you little bitch? I\'ll have you know I graduated top of my class in the Navy Seals, and I\'ve been involved in numerous secret raids on Al-Quaeda, and I have over 300 confirmed kills. I am trained in gorilla warfare and I\'m the top sniper in the entire US armed forces. You are nothing to me but just another target. I will wipe you the fuck out with precision the likes of which has never been seen before on this Earth, mark my fucking words. You think you can get away with saying that shit to me over the Internet? Think again, fucker. As we speak I am contacting my secret network of spies across the USA and your IP is being traced right now so you better prepare for the storm, maggot. The storm that wipes out the pathetic little thing you call your life. You\'re fucking dead, kid. I can be anywhere, anytime, and I can kill you in over seven hundred ways, and that\'s just with my bare hands. Not only am I extensively trained in unarmed combat, but I have access to the entire arsenal of the United States Marine Corps and I will use it to its full extent to wipe your miserable ass off the face of the continent, you little shit. If only you could have known what unholy retribution your little \"clever\" comment was about to bring down upon you, maybe you would have held your fucking tongue. But you couldn\'t, you didn\'t, and now you\'re paying the price, you goddamn idiot. I will shit fury all over you and you will drown in it. You're fucking dead, kiddo.", 0, 0, ""],
 		"062187684": ["Want to hear my new song?", 0, 0, ""]
-	}}
+	}},
 ]
 
 # print(mockup_users[0, ""]["username", ""]) returns "kovuuko"
