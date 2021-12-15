@@ -33,8 +33,15 @@ def view_profiles():
 @app.route('/user/<username>')
 def view_user(username):
 	userInfo = {}
+	count = 0
+	likes = 0
 	for user in user_data:
 		if user['username'] == username:
 			user_info = user
+			count = len(user['posts'])
+			for post in user['posts']:
+				likes = likes + user['posts'][post][1]
+
+
 	
-	return render_template('user_profile.html', user_info=user_info)
+	return render_template('user_profile.html', user_info=user_info, num_posts=count, num_likes=likes)

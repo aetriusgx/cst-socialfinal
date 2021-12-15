@@ -16,15 +16,23 @@
                     <img class="post-image" src="/static/images/unknown_img.png" width="220px" style="border-radius: 50%;">
                     <h1 class="username">{{ user_info['username'] }}</h>
                     <h6 class="description">{{ user_info['description'] }}</h6>
+                    <h6 class="post"><b>Posts:</b> {{ num_posts }}</h6>
+                    <h6 class="like"><b>Likes:</b> {{ num_likes }}</h6>
+                    
                     <hr class="seperator">
                     {% for post in user_info['posts'] %}
                         <div class="shadow p-3 mb-5 bg-body rounded" style="background-color: white;">
                             <p>@{{ user_info['username'] }}<p>
                             <p>{{ user_info['posts'][post][0] }}</p>
+                            {% if user_info['posts'][post][3] != "" %}
+                                <div class="post-image">
+                                    <img src="static/images/post/{{ user_info[0] }}/{{ user_info['posts'][post][3] }}">
+                                </div>
+                            {% endif %}
                             <div class="post-interaction"> 
                                 <a><img class="post-icons" src="/static/images/icons/love.png"></a>
                                 <!-- for filled heart: /static/images/icons/heart.png -->
-                                
+                                <p class="post-likes">{{ user_info['posts'][post][1] }}</p>
                             </div>
                         </div>
                     {% endfor %}
