@@ -6,23 +6,41 @@
     margin-left: 20%;
 }
 
+.username {
+    margin-bottom: 3%;
+}
+
 .post-image {
     float: left;
     margin-right: 5%;
 }
 
 .description {
-    margin-bottom: 15%;
+    margin-bottom: 5%;
 }
 
 .post-interaction .post-icons {
 	height: 14px;
 	width: auto;
+    float: left;
+    margin: .7%;
+    padding: 0%;
 }
+
+.post {
+    float: left;
+    margin-right: 10%;
+}
+
+.like {
+    margin-bottom: 10%;
+}
+
 
 .shadow {
     margin-top: 5%;
 }
+
 
 
 

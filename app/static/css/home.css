@@ -34,8 +34,8 @@
 .left-side-content .user-preview .upper-preview img {
 	width: auto;
 	height: auto;
-	max-width: 196px;
-	max-height: 196px;
+	max-width: 150px;
+	max-height: 150px;
 	border-radius: 50%;
 }
 
@@ -98,11 +98,13 @@
 
 .user-post .post-interaction .post-icons {
 	height: 14px;
-	width: auto;
+	width: auto; 
 }
 
+
 .user-post .post-interaction .post-int-text {
-	margin-left: 4px;
+	margin: 1.1%;
+    padding: 0%;
 }
 
 /*this is the color for the button*/

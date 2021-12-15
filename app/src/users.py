@@ -135,18 +135,18 @@ mockup_users = [
 	"description": "I am increadibily boring, hi",		               			# User bio
 	"posts": {										 		  	# User posts
 		"764274980": ["Oh no Zee released another ATS truck sound mod, goodbye to my wallet", 0, 0, ""],  			# 9 digit Random post ID: [Post text, likes, shares, ""]
-		"974279438": ["Where did my earbuds go", 0, 0, ""],
-		"313142453": ["My USB cable is broken", 0, 0, "rip_usb.png"],
-		"432425388": ["Type C is best cable", 0, 0, ""],
-		"888035908": ["My internet is less than 1mbps I love it here", 0, 0, ""],
+		"974279438": ["Where did my earbuds go", 3, 0, ""],
+		"313142453": ["My USB cable is broken", 10, 0, "rip_usb.png"],
+		"432425388": ["Type C is best cable", 12, 0, ""],
+		"888035908": ["My internet is less than 1mbps I love it here", 1, 0, ""],
 		"215354119": ["I saw a cool car on my way back from Melbourne", 0, 0, ""],
-		"238938411": ["Someone called me a pilgrim today", 0, 0, ""],
-		"838381108": ["I saw a car on the side of the road today and Phil Swift must have been driving because that was a lot of damage", 0, 0, ""],
-		"732979591": ["Julius Caesar was 174% knife by volume by the end of his career", 0, 0, ""],
-		"999979711": ["Roombas will save us all, until they get stuck on twigs or become sentient", 0, 0, ""],
-		"084919911": ["I\'m hungry... also depressed, but mostly hungry", 0, 0, ""],
-		"938480111": ["Space Crisps", 0, 0, ""],
-		"858481958": ["Muhhhhh grafixxxxx", 0, 0, ""],
+		"238938411": ["Someone called me a pilgrim today", 3, 0, ""],
+		"838381108": ["I saw a car on the side of the road today and Phil Swift must have been driving because that was a lot of damage", 5, 0, ""],
+		"732979591": ["Julius Caesar was 174% knife by volume by the end of his career", 2, 0, ""],
+		"999979711": ["Roombas will save us all, until they get stuck on twigs or become sentient", 7, 0, ""],
+		"084919911": ["I\'m hungry... also depressed, but mostly hungry", 5, 0, ""],
+		"938480111": ["Space Crisps", 3, 0, ""],
+		"858481958": ["Muhhhhh grafixxxxx", 4, 0, ""],
 	
 	}},
 	# Need to updated users past this
