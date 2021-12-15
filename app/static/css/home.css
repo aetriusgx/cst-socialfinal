@@ -171,7 +171,8 @@ input:checked + .hearth {
 	animation-fill-mode: forwards;
 }
 
-/* This is what makes the image go foward. */
+/* This is what makes the image go foward. 
+   It controls the animation sequence */
 @keyframes like {
 	0% {
 	  background-position-x: 0;
