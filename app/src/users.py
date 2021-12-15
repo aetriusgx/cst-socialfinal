@@ -145,7 +145,7 @@ mockup_users = [
 		"084919911": ["I\'m hungry... also depressed, but mostly hungry", 0, 0, ""],
 		"938480111": ["Space Crisps", 0, 0, ""]
 	}},
-	# Need to updated users past this one
+	# Need to updated users past this
 	{"username": "rizentral",								# Without @
 	"description": "I build terrible cars and make LED car badges",		               			# User bio
 	"posts": {										 		  	# User posts
@@ -154,7 +154,11 @@ mockup_users = [
 		"893189309": ["So aside from the everything not being bolted on, the car \"works\" great!", 0, 0, ""],
 		"813139090": ["I have a bluetooth driveshaft", 0, 0, ""],
 		"809213892": ["Pwaf", 0, 0, ""],
-		"080813332": ["My starter got so hot it shorted to the frame lol", 0, 0, ""]
+		"080813332": ["My starter got so hot it shorted to the frame lol", 0, 0, ""],
+		"654654651": ["I just had to overnight a part for me car and the shipping cost more than the part", 0, 0],
+		"383828222": ["I JUST PUT MY CONTROLLER IN MY CHALUPA", 0, 0],
+		"123561922": ["There's a 104 days of summer vacation and school comes along just to end it. So the annual problem for our generation is finding the best way to send it, LIKE MAYBE... BUILDING A SLOW CAR OR FIGHTING MECHANICS OR CLIMBING UNDERNEATH YOUR FRIENDS CAR. OR CREATING A PROBLEM THAT DIDN\'T EXIST OR WASHING YOUR WHEELS IN THE SHOWER", 0, 0],
+		"974797911": ["I was modeling something today and I was like \"ok this is the body line\" and then I switch to top view and its like \"haHA BITCH YOU THOUGHT\"", 0, 0],
 	}},
 	{"username": "sliceable",								# Without @
 	"description": "Subaru Mechanic",		               			# User bio
@@ -164,7 +168,9 @@ mockup_users = [
 		"145367831": ["Volvo trim removal tool > Any other trim removal tool", 0, 0, ""],
 		"485285573": ["My cat is sitting on my Xbox, if I overheat I'm sorry", 0, 0, ""],
 		"898942893": ["I now have a longboi 10mm socket", 0, 0, ""],
-		"321564845": ["Mmmmm, Japanese cars", 0, 0, ""]
+		"321564845": ["Mmmmm, Japanese cars", 0, 0, ""],
+		"789789232": ["My cat is on my keyboard again. Its not even warm", 0, 0],
+		"471748992": ["Definitely don't leave games open for weeks at a time I swear", 0, 0]
 	}},
 	{"username": "godcomplexmaybe",								# Without @
 	"description": "here for theb ride. unwillingly. being dragged by a rope",		               			# User bio
@@ -191,7 +197,56 @@ mockup_users = [
 		"019347811": ["Today when I walked into my economics class I saw something I dread every time I close my eyes. Someone had brought their new gaming laptop to class. The Forklift he used to bring it was still running idle at the back. I started sweating as I sat down and gazed over at the 700lb beast that was his laptop. He had already reinforced his desk with steel support beams and was in the process of finding an outlet for a power cable thicker than my thigh. I start shaking. I keep telling myself I\'m going to be alright and that there\'s nothing to worry about. He somehow finds a fucking outlet. Tears are running down my cheeks as I send my last texts to my family saying I love them. The teacher starts the lecture, and the student turns his laptop on. The colored lights on his RGB Backlit keyboard flare to life like a nuclear flash, and a deep humming fills my ears and shakes my very soul. The entire city power grid goes dark. The classroom begins to shake as the massive fans begin to spin. In mere seconds my world has gone from vibrant life, to a dark, earth shattering void where my body is getting torn apart by the 150mph gale force winds and the 500 decibel groan of the cooling fans. As my body finally surrenders, I weep, as my school and my city go under.", 0, 0, ""],
 		"255984515": ["The FitnessGram™ Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues. The 20 meter pacer test will begin in 30 seconds. Line up at the start. The running speed starts slowly, but gets faster each minute after you hear this signal. [beep, ""] A single lap should be completed each time you hear this sound. [ding, ""] Remember to run in a straight line, and run as long as possible. The second time you fail to complete a lap before the sound, your test is over. The test will begin on the word start. On your mark, get ready, start.", 0, 0, ""],
 		#"062166858": ["What the fuck did you just fucking say about me, you little bitch? I\'ll have you know I graduated top of my class in the Navy Seals, and I\'ve been involved in numerous secret raids on Al-Quaeda, and I have over 300 confirmed kills. I am trained in gorilla warfare and I\'m the top sniper in the entire US armed forces. You are nothing to me but just another target. I will wipe you the fuck out with precision the likes of which has never been seen before on this Earth, mark my fucking words. You think you can get away with saying that shit to me over the Internet? Think again, fucker. As we speak I am contacting my secret network of spies across the USA and your IP is being traced right now so you better prepare for the storm, maggot. The storm that wipes out the pathetic little thing you call your life. You\'re fucking dead, kid. I can be anywhere, anytime, and I can kill you in over seven hundred ways, and that\'s just with my bare hands. Not only am I extensively trained in unarmed combat, but I have access to the entire arsenal of the United States Marine Corps and I will use it to its full extent to wipe your miserable ass off the face of the continent, you little shit. If only you could have known what unholy retribution your little \"clever\" comment was about to bring down upon you, maybe you would have held your fucking tongue. But you couldn\'t, you didn\'t, and now you\'re paying the price, you goddamn idiot. I will shit fury all over you and you will drown in it. You're fucking dead, kiddo.", 0, 0, ""],
-		"062187684": ["Want to hear my new song?", 0, 0, ""]
+		"562921966": ["This does not change the fact that in Antarctica there are 21 million penguins and in Malta there are 502,653 inhabitants. So if the penguins decide to invade Malta, each Maltese will have to fight 42 penguins.?", 0, 0],
+		"741915887": ["\"touch grass\" is not an insult towards gamers, rather it is advice for them. When participating in intense periods of gaming, the human hand has a tendency to get sweaty. The sweat causes the hand to become slick, and it b becomes more difficult to retain a grip on the gamers gaming mouse, thus making it more difficult to perform well in intense gaming moments. By touching grass with the gamers hand, the grass will impart a layer of particulate onto the gamers hand, the particulate can be made of a variety of dusts, dirts and other natural matter. This particulate will then act in a similar form to climbers chalk, absorbing the sweat and drying out the gamers hand. With dry hands, the gamer can now perform to their maximum when gaming. This is why when an enemy or teammate tells you to touch grass, they are simply trying to assist you in performing better.", 0, 0],
+		"782347321": ["I think people just have different was they like to spend their time. Some people like lifting weights just to improve themselves or even for quiet introspection. Some people are passive=aggressive because they secretly hate a part of themselves.", 0, 0],
+		"912516314": ["The R in PRNDL stands for Rawr ;3", 0, 0],
+		"973971911": ["Look at you, hacker, a pathetic creature of meat and bone. How can you challenge a perrfect, immortal mahine?", 0, 0],
+		"439083409": ["A himbo must fulfill all three pillars. 1. Pure of heart. 2. Broad of chest. 3. Dumb of ass", 0, 0],
+		"398389898": ["Don't let your yearnings get ahead of your earnings", 0, 0],
+		"555546565": ["Don't mess wth something that ain't bothering you", 0, 0],
+		"912516314": ["Never approach a bullfrom the front, a horse from the rear, or a fool from any direction", 0, 0],
+		"654848485": ["Just \'cause trouble is coming dones\'t mean you haveto offer it a place to sit down", 0, 0],
+	}},
+	{"username": "jsilv",								# Without @
+	"description": "Environmental Science Teacher",		               			# User bio
+	"posts": {										 		  	# User posts
+		"489652856": ["In environmental science, the worst answer is proabably the correct answer", 0, 0],  			# 9 digit Random post ID: [Post text, likes, shares]
+	}},
+	{"username": "foofer",								# Without @
+	"description": "College Student",		               			# User bio
+	"posts": {										 		  	# User posts
+		"652894516": ["I would work for ice cream", 0, 0],  			# 9 digit Random post ID: [Post text, likes, shares]
+		"955616166": ["I just tried to eat my AirPods. Had AirPod on table, also had tic tacs on table, both are white. Was popping tic tacs, ran out of tic tacs. Almost popped AirPod, fortunately I noticed", 0, 0],
+	}},
+	{"username": "bigbirb82",								# Without @
+	"description": "No I\'m not the bird from Seasame Street",		               			# User bio
+	"posts": {										 		  	# User posts
+		"565265161": ["I am ashamed to admit I once had a crush on a robot wars robot", 0, 0],  			# 9 digit Random post ID: [Post text, likes, shares]
+	}},
+	{"username": "Hoaxagonal",								# Without @
+	"description": "Med Student",		               			# User bio
+	"posts": {										 		  	# User posts
+		"525245874": ["I tried changing my oil today and lets just say that some frog is currently reliving the gulf oil spill", 0, 0],  			# 9 digit Random post ID: [Post text, likes, shares]
+		"879199174": ["So my friend asked me if he should get Belugars or Zebras but he could literally mean an actual real live beluga whale or zebra or this could be some type of shoe or something fancy I know nothing about...but with him it really really honestly could be a fucking 3,000 LB wale from the fucking arctic ocean", 0, 0]
+	}},
+	{"username": "tkey",								# Without @
+	"description": "NASCAR Fan",		               			# User bio
+	"posts": {										 		  	# User posts
+		"521756546": ["Day 456 of my Corolla being broken", 0, 0],  			# 9 digit Random post ID: [Post text, likes, shares]
+		"848229421": ["Got dome\'d by a soccer ball today", 0, 0]
+	}},
+	{"username": "stork",								# Without @
+	"description": "BNR32 Fanboy",		               			# User bio
+	"posts": {										 		  	# User posts
+		"897191131": ["Smoke tires not drugs", 0, 0],  			# 9 digit Random post ID: [Post text, likes, shares]
+		"838828842": ["Conk > Bepis", 0, 0],
+		"888174381": ["Japan now has a Hello Kitty bullet train", 0, 0]
+	}},
+	{"username": "eyyb0ss",								# Without @
+	"description": "Yes",		               			# User bio
+	"posts": {										 		  	# User posts
+		"848828828": ["My b FBI guy", 0, 0],  			# 9 digit Random post ID: [Post text, likes, shares]
 	}},
 ]
 
