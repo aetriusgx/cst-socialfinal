@@ -14,12 +14,13 @@
             <div class="container" style="margin-top: 80px;">
                 <div class="box-content">
                     <img class="post-image" src="/static/images/unknown_img.png" width="220px" style="border-radius: 50%;">
-                    <h1 class="username">{{ user_info['username'] }}</h>
+                    <h1 class="username">{{ user_info['username'] }}</h1>
                     <h6 class="description">{{ user_info['description'] }}</h6>
                     <h6 class="post"><b>Posts:</b> {{ num_posts }}</h6>
-                    <h6 class="like"><b>Likes:</b> {{ num_likes }}</h6>
-                    
-                    <hr class="seperator">
+                    <h6 class="user-likes"><b>Likes:</b> {{ num_likes }}</h6>
+                </div>
+                <hr class="hr">
+                <div class="user-posts">
                     {% for post in user_info['posts'] %}
                         <div class="shadow p-3 mb-5 bg-body rounded" style="background-color: white;">
                             <p>@{{ user_info['username'] }}<p>
@@ -30,16 +31,16 @@
                                 </div>
                             {% endif %}
                             <div class="post-interaction"> 
-                                <a><img class="post-icons" src="/static/images/icons/love.png"></a>
-                                <!-- for filled heart: /static/images/icons/heart.png -->
+                                <label class="post-like">
+                                    <input type="checkbox"/>
+                                    <div class="hearth"></div>
+                                </label>
                                 <p class="post-likes">{{ user_info['posts'][post][1] }}</p>
                             </div>
                         </div>
                     {% endfor %}
                 </div>
-                    <br>
-                </div>
-                <hr class="seperator">
+                   
             </div>
         {% endblock %}
 </body>

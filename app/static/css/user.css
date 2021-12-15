@@ -4,6 +4,16 @@
 
 .box-content {
     margin-left: 20%;
+    padding: 10px;
+}
+
+.hr {
+    margin-left: 20%;
+    size: 100%;
+}
+
+.user-posts {
+    margin-left: 20%;
 }
 
 .username {
@@ -19,27 +29,96 @@
     margin-bottom: 5%;
 }
 
-.post-interaction .post-icons {
-	height: 14px;
-	width: auto;
-    float: left;
-    margin: .7%;
-    padding: 0%;
+.user-likes {
+    margin-bottom: 10%;;
 }
 
+
+.post-like {
+    float: left;
+
+}
+
+.post-likes {
+    padding: 1.5%;
+}
 .post {
     float: left;
     margin-right: 10%;
 }
 
-.like {
-    margin-bottom: 10%;
-}
-
 
 .shadow {
     margin-top: 5%;
+
 }
+
+
+/* This makes the size of the heart/animation */
+:root {
+	--size: 50px;
+	--frames: 62;
+}
+
+/* This makes so that the checkmark boxes are not visable */
+input {
+	display: none;
+}
+
+/* This creates the outer circle of the heart button */
+.post-like {
+	display: block;
+	width: var(--size);
+	height: var(--size);
+	cursor: pointer;
+	border-radius: 999px;
+	overflow: visible;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-tap-highlight-color: transparent;
+}
+
+/* This is the heart images it self. 
+   It grabs the image from the url and displays it as an animation.
+   It goes step by step. */
+.hearth {
+	background-image: url('https://assets.codepen.io/23500/Hashflag-AppleEvent.svg');
+	background-size: calc(var(--size) * var(--frames)) var(--size);
+	background-repeat: no-repeat;
+	background-position-x: calc(var(--size) * (var(--frames) * -1 + 2));
+	background-position-y: calc(var(--size) * 0.02);
+	width: var(--size);
+	height: var(--size);
+}
+
+/* This makes it so when the checkbox is pressed.
+   The image goes frame by frame like an animation. */
+input:checked + .hearth {
+	animation: like 1s steps(calc(var(--frames) - 3));  
+	animation-fill-mode: forwards;
+}
+
+/* This is what makes the image go foward. */
+@keyframes post-like {
+	0% {
+	  background-position-x: 0;
+	}
+	100% {
+	  background-position-x: calc(var(--size) * (var(--frames) * -1 + 3));
+	}
+}
+
+/* This is when you hover over the heart, 
+   it shows that light red circle on top of the image.*/
+@media (hover: hover){
+	.post-like:hover {
+	  background-color: #E1255E15;
+    }
+	.hearth:hover {
+		background-position-x: calc(var(--size) * (var(--frames) * -1 + 1));
+	}
+}
+
+
 
 
 
