@@ -145,7 +145,9 @@ mockup_users = [
 		"732979591": ["Julius Caesar was 174% knife by volume by the end of his career", 0, 0, ""],
 		"999979711": ["Roombas will save us all, until they get stuck on twigs or become sentient", 0, 0, ""],
 		"084919911": ["I\'m hungry... also depressed, but mostly hungry", 0, 0, ""],
-		"938480111": ["Space Crisps", 0, 0, ""]
+		"938480111": ["Space Crisps", 0, 0, ""],
+		"858481958": ["Muhhhhh grafixxxxx", 0, 0, ""],
+	
 	}},
 	# Need to updated users past this
 	{"username": "rizentral",								# Without @
@@ -237,6 +239,7 @@ mockup_users = [
 		"525245874": ["I tried changing my oil today and lets just say that some frog is currently reliving the gulf oil spill", 0, 0, ""],  			# 9 digit Random post ID: [Post text, likes, shares]
 		"879199174": ["So my friend asked me if he should get Belugars or Zebras but he could literally mean an actual real live beluga whale or zebra or this could be some type of shoe or something fancy I know nothing about...but with him it really really honestly could be a fucking 3,000 LB wale from the fucking arctic ocean", 0, 0, ""],
 		"894982921": ["I had a good experience at a car dealership today. I tooka friend who was looking for something and had a saleman who was really helpful and honest, even offering to teach her manual in his own car. He also said something that stuck with me: \"there aren\'t enough car people in the world- and there\'s barely any in the automotive sales industry... and that\'s sad. If I lose a couple bucks off my paycheck but know someone else walks away seeing a car as more than an engine and wheels I\'m happy", 0, 0, ""],
+		"485588282": ["I dug up an old chat with a friend and found something funny: \"Yes I know I said I’d kill him AND laid out an incredibly detailed plan all the way down to the very alibi I’m giving you right now... BUT THAT WAS ALL RHETORICAL\"", 0, 0, ""],
 	}},
 	{"username": "tkey",								# Without @
 	"description": "NASCAR Fan",		               			# User bio
@@ -251,6 +254,7 @@ mockup_users = [
 		"897191131": ["Smoke tires not drugs", 0, 0, ""],  			# 9 digit Random post ID: [Post text, likes, shares]
 		"838828842": ["Conk > Bepis", 0, 0, ""],
 		"888174381": ["Japan now has a Hello Kitty bullet train", 0, 0, ""],
+		"488828381": ["OH MY GOD THE NEW MAC MINI DOESN'T HAVE AN AIR INTAKE. ITS RELYING ON NOTHING. ITS LIKE THE SPIRIT OF STEVE JOBS COMES BACK AND SAYS \"LET THERE BE AIR\" EVERY TIME ONE IS BOOTED", 0, 0, ""],
 	}},
 	{"username": "eyyb0ss",								# Without @
 	"description": "Yes",		               			# User bio
