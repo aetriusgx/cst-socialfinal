@@ -226,6 +226,7 @@ mockup_users = [
 		"565265161": ["I am ashamed to admit I once had a crush on a robot wars robot", 0, 0, ""],  			# 9 digit Random post ID: [Post text, likes, shares]
 		"747949711": ["Here look, here is a dog, having her dinner", 0, 0, ""],
 		"848999818": ["k.o ,, d,, , @-,,d,,\"  c  x  f m", 0, 0, ""],
+		"848193017": ["Sean Connery was discussing yeeting a cup of coffee", 0, 0, ""],
 	}},
 	{"username": "Hoaxagonal",								# Without @
 	"description": "Med Student",		               			# User bio
@@ -244,7 +245,7 @@ mockup_users = [
 	"posts": {										 		  	# User posts
 		"897191131": ["Smoke tires not drugs", 0, 0, ""],  			# 9 digit Random post ID: [Post text, likes, shares]
 		"838828842": ["Conk > Bepis", 0, 0, ""],
-		"888174381": ["Japan now has a Hello Kitty bullet train", 0, 0, ""]
+		"888174381": ["Japan now has a Hello Kitty bullet train", 0, 0, ""],
 	}},
 	{"username": "eyyb0ss",								# Without @
 	"description": "Yes",		               			# User bio
@@ -254,8 +255,34 @@ mockup_users = [
 	{"username": "hnnah",								# Without @
 	"description": "love you vi",		               			# User bio
 	"posts": {										 		  	# User posts
-		"949299199": ["This isn't Knight Rider, this is Knight Wider", 0, 0, ""],  			# 9 digit Random post ID: [Post text, likes, shares]
-		"183884810": ["I don't like human interaction", 0, 0, ""]
+		"949299199": ["This isn\'t Knight Rider, this is Knight Wider", 0, 0, ""],  			# 9 digit Random post ID: [Post text, likes, shares]
+		"183884810": ["I don\'t like human interaction", 0, 0, ""],
+		"747195814": ["and (Random online player name) WINS THE BRITISH GRAND PRIX! I DON\'T CARE", 0, 0, ""],
+		"897499759": ["Indiana is floating", 0, 0, ""],
+		"894899922": ["One man\'s roof is another man\'s ceiling", 0, 0, ""],
+		"974919774": ["HOW DO I EXCAPE THIS INFERNAL SHARK PARK?!", 0, 0, ""],
+		"894981991": ["Why do you want him to eat himself?", 0, 0, ""],
+		"949919311": ["DON\'T BLOW UP THE ALIENS", 0, 0, ""],
+	}},
+	{"username": "crgy",								# Without @
+	"description": "I like cars",		               			# User bio
+	"posts": {										 		  	# User posts
+		"123467123": ["Don't you hate it when you're trying to make idle talk about chess and then you get beaned in the face?", 0, 0, ""],  			# 9 digit Random post ID: [Post text, likes, shares]
+		"894579711": ["scromit", 0, 0, ""],
+		"974991931": ["When's mclaren gonna enter a car into F1...  wait.....", 0, 0, ""],
+		"894888181": ["I wouldn't touch Lester from GTA with a ten-foot barge pole", 0, 0, ""],
+	}},
+	{"username": "lonpor",								# Without @
+	"description": "Thinking",		               			# User bio
+	"posts": {										 		  	# User posts
+		"813577234": ["I accidentally wrote Toyota as Toyowota", 0, 0, ""],  			# 9 digit Random post ID: [Post text, likes, shares]
+		"848183881": ["What does Boris rhyme with?", 0, 0, ""],
+	}},
+	{"username": "burnout1562",								# Without @
+	"description": "Cadillac CTS-V > Everything",		               			# User bio
+	"posts": {										 		  	# User posts
+		"848828828": ["I have mulitple excuses for doing poorly. I didn't have any time for practice and my poor space heater died yesterdar. So i was not only mourning its death, but I was also freezing", 0, 0, ""],  			# 9 digit Random post ID: [Post text, likes, shares]
+		"848189191": ["Hammer tiem for Bottas? More like push mallet time.", 0, 0, ""],
 	}},
 ]
 
