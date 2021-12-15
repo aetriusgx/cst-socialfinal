@@ -48,11 +48,19 @@
                         {% endif %}
                         <div class="post-interaction">
                             <!--<a><img class="post-icons" src="/static/images/icons/love.png"></a>-->
-                            <!--button class to create the button-->
-                            <button class="button">
-                                <i class="fa fa-heart"></i>
-                            </button>
                             <!-- for filled heart: /static/images/icons/heart.png -->
+                            <!--button class to create the button-->
+                            <label class="like">
+                                <input type="checkbox"/>
+                                <div class="hearth"></div>
+                              </label>
+                            <!--old verson of the button-->
+                            <!--<form method="/" >
+                                <input type="checkbox">
+                                <button class="button" id="button">
+                                    <i class="fa fa-heart"></i>
+                                </button>
+                            </form>-->
                             <p class="post-int-text">{{ post[1][1] }}</p>
                         </div>
                     </div>
@@ -62,6 +70,5 @@
             </div>
         </div>
     {% endblock %}
-
 </body>
 </html>
