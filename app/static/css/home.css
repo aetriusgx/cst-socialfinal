@@ -130,7 +130,7 @@
 
 /* This makes the size of the heart/animation */
 :root {
-	--size: 50px;
+	--size: 40px;
 	--frames: 62;
 }
 
@@ -184,9 +184,11 @@ input:checked + .hearth {
 /* This is when you hover over the heart, 
    it shows that light red circle on top of the image.*/
 @media (hover: hover){
+	/*
 	.like:hover {
 	  background-color: #E1255E15;
     }
+	*/
 	.hearth:hover {
 		background-position-x: calc(var(--size) * (var(--frames) * -1 + 1));
 	}
