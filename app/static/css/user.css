@@ -1,20 +1,15 @@
-.container {
-    float: left;
-}
+
 
 .box-content {
-    margin-left: 20%;
+    
     padding: 10px;
 }
 
 .hr {
-    margin-left: 20%;
+ 
     size: 100%;
 }
 
-.user-posts {
-    margin-left: 20%;
-}
 
 .username {
     margin-bottom: 3%;
