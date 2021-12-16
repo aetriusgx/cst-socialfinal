@@ -16,8 +16,12 @@ user_data = users.mockup_users
 timeline = []
 for user in range(0, len(user_data)):
 	for post in user_data[user]["posts"]:
-		timeline.append([user_data[user]["username"], user_data[user]["posts"][post]])
+		timeline.append([user_data[user]["username"], user_data[user]["posts"][post], user_data[user]["description"]])
 shuffle(timeline)
+
+suggested = []
+for user in user_data:
+	suggested.append([user['username'], user['description']])
 
 @app.route('/',methods=['GET', 'POST'])
 def homePage():
@@ -27,7 +31,8 @@ def homePage():
 @app.route('/view_profiles', methods=['POST'])
 def view_profiles():
 	user = request.form.get('search-user')
-	return render_template('profile.html', user=user, user_data=user_data)
+	shuffle(suggested)
+	return render_template('profile.html', user=user, user_data=user_data, suggested=suggested)
 
 
 @app.route('/user/<username>')

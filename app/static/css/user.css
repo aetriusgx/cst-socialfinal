@@ -27,6 +27,7 @@
 
 .description {
     margin-bottom: 5%;
+	color: rgb(129, 123, 123);
 }
 
 .user-likes {
@@ -40,7 +41,7 @@
 }
 
 .post-likes {
-    padding: 1.5%;
+    padding: .9%;
 }
 .post {
     float: left;

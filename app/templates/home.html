@@ -10,6 +10,23 @@
     <title>Canary - Home</title>
 </head>
 <body>
+    <div id="preloader">
+        <div class="preload-image">
+            <img class="favicon" src="/static/images/icons/favicon.png">
+        </div>
+    </div>
+
+    <script>
+        const preloader = document.getElementById("preloader");
+
+        const fadeEffect = setInterval(() => {
+            preloader.style.display = "none";
+            clearInterval(fadeEffect);
+
+        }, 4000);
+
+        window.addEventListener('load', fadeEffect);
+    </script>
     {% extends 'navbar.html' %}
     {% block content %}
         <div class="page-content">
@@ -17,7 +34,7 @@
                 <div class="user-preview">
                     <div class="upper-preview">
                         <img src="/static/images/unknown_img.png">
-                        <a href="{{ url_for('view_user', username=user['username'])}}"><p>
+                        <a href="{{ url_for('view_user', username=user['username'])}}" ><p>
                             @{{ user["username"] }}
                         </p></a>
                     </div>
@@ -31,7 +48,7 @@
                 {% for post in timeline %}
                     <div class="user-post">
 
-                        <a href="{{ url_for('view_user', username=post[0]) }}">
+                        <a href="{{ url_for('view_user', username=post[0]) }}" style="text-decoration: none;">
                             <p class="post-username">
                                 @{{ post[0] }}
                             </p>
