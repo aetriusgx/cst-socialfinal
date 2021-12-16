@@ -10,6 +10,8 @@
     <title>Canary - Home</title>
 </head>
 <body>
+    {% extends 'navbar.html' %}
+    {% block content %}
     <div id="preloader">
         <div class="preload-image">
             <img class="favicon" src="/static/images/icons/favicon.png">
@@ -27,8 +29,6 @@
 
         window.addEventListener('load', fadeEffect);
     </script>
-    {% extends 'navbar.html' %}
-    {% block content %}
         <div class="page-content">
             <div class="left-side-content">
                 <div class="user-preview">
