@@ -168,7 +168,7 @@ input {
 }
 
 /* This is the heart images it self. 
-   It grabs the image from the url and displays it as an animation.
+   It grabs the image from the url and displays it.
    It goes step by step. */
 .hearth {
 	background-image: url('https://assets.codepen.io/23500/Hashflag-AppleEvent.svg');
@@ -187,7 +187,8 @@ input:checked + .hearth {
 	animation-fill-mode: forwards;
 }
 
-/* This is what makes the image go foward. */
+/* This is what makes the image go foward. 
+   It controls the animation sequence */
 @keyframes like {
 	0% {
 	  background-position-x: 0;
@@ -198,7 +199,7 @@ input:checked + .hearth {
 }
 
 /* This is when you hover over the heart, 
-   it shows that light red circle on top of the image.*/
+   it shows that light red circle on top of the image/heart.*/
 @media (hover: hover){
 	
 	.like:hover {
