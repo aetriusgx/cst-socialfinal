@@ -27,7 +27,8 @@
                             <p>{{ user_info['posts'][post][0] }}</p>
                             {% if user_info['posts'][post][3] != "" %}
                                 <div class="post-image">
-                                    <img src="static/images/post/{{ user_info[0] }}/{{ user_info['posts'][post][3] }}">
+                                    <img src="static/images/post/{{ user_info['username'] }}/{{ user_info['posts'][post][3] }}">
+                                    <p>static/images/post/{{ user_info['username'] }}/{{ user_info['posts'][post][3] }}</p>
                                 </div>
                             {% endif %}
                             <div class="post-interaction"> 

@@ -1,0 +1,25 @@
+.container {
+    float: left;
+}
+
+.suggested-user {
+    margin-left: 7%;
+}
+
+
+.box-content {
+    margin-left: 20%;
+}
+
+
+
+.post-image {
+    float: left;
+    margin-right: 3%;
+}
+
+.post-description {
+    color: rgb(129, 123, 123);
+    margin-top: 1.5%;
+    margin-bottom: 2.2%;
+}
